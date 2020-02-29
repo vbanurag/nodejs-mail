@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>XYZ.CO</title>
+</head>
+
+<body>
+
+    <h1>Hello admin</h1>
+    <hr />
+
+    <h3> New user added on site</h3>
+
+    <h4> User data is following: </h4>
+
+    <table style="width:100%">
+        <tr>
+            <th>Name:</th>
+            <td><%- name %></td>
+        </tr>
+        <tr>
+            <th rowspan="2">Email:</th>
+            <td><%- email %></td>
+        </tr>
+    </table>
+
+    <br /><br />
+</body>
+
+</html>
